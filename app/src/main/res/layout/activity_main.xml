@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="415dp"
+        android:layout_height="547dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Program to calculate BMI value" />
+
+        <TableRow>
+
+            <TextView android:text="Enter Name: " />
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="320dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Enter Height: " />
+
+            <EditText
+                android:id="@+id/txtHeight"
+                android:layout_width="320dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Enter Weight: " />
+
+            <EditText
+                android:id="@+id/txtWeight"
+                android:layout_width="320dp" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/btnCalculate"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:text="Calculate IBM" />
+
+        <TableRow>
+
+            <TextView android:text="BMI: " />
+
+            <EditText
+                android:id="@+id/txtBMI"
+                android:layout_width="320dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="Diagnose: " />
+
+            <EditText
+                android:id="@+id/txtDiagnose"
+                android:layout_width="320dp" />
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
