@@ -35,7 +35,8 @@
 
             <EditText
                 android:id="@+id/txtHeight"
-                android:layout_width="320dp" />
+                android:layout_width="320dp"
+                android:inputType="number"/>
         </TableRow>
 
         <TableRow>
@@ -44,7 +45,8 @@
 
             <EditText
                 android:id="@+id/txtWeight"
-                android:layout_width="320dp" />
+                android:layout_width="320dp"
+                android:inputType="number"/>
         </TableRow>
 
         <Button
@@ -59,7 +61,8 @@
 
             <EditText
                 android:id="@+id/txtBMI"
-                android:layout_width="320dp" />
+                android:layout_width="320dp"
+                android:inputType="number"/>
         </TableRow>
 
         <TableRow>
@@ -68,7 +71,8 @@
 
             <EditText
                 android:id="@+id/txtDiagnose"
-                android:layout_width="320dp" />
+                android:layout_width="320dp"
+                android:inputType="number"/>
         </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
